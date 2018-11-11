@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DCD4FB12198C0C00015E1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB02198C0C00015E1AF /* AppDelegate.swift */; };
-		3DCD4FB32198C0C00015E1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB22198C0C00015E1AF /* ViewController.swift */; };
+		3DCD4FB32198C0C00015E1AF /* OvrHereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB22198C0C00015E1AF /* OvrHereViewController.swift */; };
 		3DCD4FB82198C0C20015E1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB72198C0C20015E1AF /* Assets.xcassets */; };
 		3DCD4FC62198C0C20015E1AF /* ovrhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FC52198C0C20015E1AF /* ovrhereTests.swift */; };
 		3DCD4FD12198C0C20015E1AF /* ovrhereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FD02198C0C20015E1AF /* ovrhereUITests.swift */; };
@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		3DCD4FAD2198C0C00015E1AF /* ovrhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ovrhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCD4FB02198C0C00015E1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DCD4FB22198C0C00015E1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCD4FB22198C0C00015E1AF /* OvrHereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvrHereViewController.swift; sourceTree = "<group>"; };
 		3DCD4FB72198C0C20015E1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCD4FBC2198C0C20015E1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCD4FC12198C0C20015E1AF /* ovrhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ovrhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3DCD4FB02198C0C00015E1AF /* AppDelegate.swift */,
-				3DCD4FB22198C0C00015E1AF /* ViewController.swift */,
+				3DCD4FB22198C0C00015E1AF /* OvrHereViewController.swift */,
 				3DCD4FB72198C0C20015E1AF /* Assets.xcassets */,
 				3DCD4FBC2198C0C20015E1AF /* Info.plist */,
 			);
@@ -248,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCD4FB32198C0C00015E1AF /* ViewController.swift in Sources */,
+				3DCD4FB32198C0C00015E1AF /* OvrHereViewController.swift in Sources */,
 				3DCD4FB12198C0C00015E1AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

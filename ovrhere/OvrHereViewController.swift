@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OvrHereViewController.swift
 //  ovrhere
 //
 //  Created by Nareg Khoshafian on 11/11/18.
@@ -8,10 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OvrHereViewController: UIViewController {
 
+    let wordsDictionary = ["hello","world","yo","where","dog","sup"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
 }
