@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3DCD4FB12198C0C00015E1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB02198C0C00015E1AF /* AppDelegate.swift */; };
-		3DCD4FB32198C0C00015E1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB22198C0C00015E1AF /* ViewController.swift */; };
+		3DCD4FB32198C0C00015E1AF /* OvrHereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB22198C0C00015E1AF /* OvrHereViewController.swift */; };
 		3DCD4FB82198C0C20015E1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD4FB72198C0C20015E1AF /* Assets.xcassets */; };
 		3DCD4FC62198C0C20015E1AF /* ovrhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FC52198C0C20015E1AF /* ovrhereTests.swift */; };
 		3DCD4FD12198C0C20015E1AF /* ovrhereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FD02198C0C20015E1AF /* ovrhereUITests.swift */; };
+		3DCD4FDF2198C7380015E1AF /* OvrHereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD4FDE2198C7380015E1AF /* OvrHereViewModel.swift */; };
+		3DCD4FE12198C7AD0015E1AF /* OvrHereViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCD4FE02198C7AD0015E1AF /* OvrHereViewController.xib */; };
+		3DFEAA282199DBB2007CCE3F /* Splash.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEAA272199DBB2007CCE3F /* Splash.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,7 @@
 /* Begin PBXFileReference section */
 		3DCD4FAD2198C0C00015E1AF /* ovrhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ovrhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCD4FB02198C0C00015E1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DCD4FB22198C0C00015E1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCD4FB22198C0C00015E1AF /* OvrHereViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvrHereViewController.swift; sourceTree = "<group>"; };
 		3DCD4FB72198C0C20015E1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCD4FBC2198C0C20015E1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCD4FC12198C0C20015E1AF /* ovrhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ovrhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +46,9 @@
 		3DCD4FCC2198C0C20015E1AF /* ovrhereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ovrhereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCD4FD02198C0C20015E1AF /* ovrhereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ovrhereUITests.swift; sourceTree = "<group>"; };
 		3DCD4FD22198C0C20015E1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCD4FDE2198C7380015E1AF /* OvrHereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvrHereViewModel.swift; sourceTree = "<group>"; };
+		3DCD4FE02198C7AD0015E1AF /* OvrHereViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OvrHereViewController.xib; sourceTree = "<group>"; };
+		3DFEAA272199DBB2007CCE3F /* Splash.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Splash.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				3DCD4FB02198C0C00015E1AF /* AppDelegate.swift */,
-				3DCD4FB22198C0C00015E1AF /* ViewController.swift */,
+				3DCD4FB22198C0C00015E1AF /* OvrHereViewController.swift */,
+				3DFEAA272199DBB2007CCE3F /* Splash.xib */,
+				3DCD4FE02198C7AD0015E1AF /* OvrHereViewController.xib */,
+				3DCD4FDE2198C7380015E1AF /* OvrHereViewModel.swift */,
 				3DCD4FB72198C0C20015E1AF /* Assets.xcassets */,
 				3DCD4FBC2198C0C20015E1AF /* Info.plist */,
 			);
@@ -223,7 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCD4FE12198C7AD0015E1AF /* OvrHereViewController.xib in Resources */,
 				3DCD4FB82198C0C20015E1AF /* Assets.xcassets in Resources */,
+				3DFEAA282199DBB2007CCE3F /* Splash.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCD4FB32198C0C00015E1AF /* ViewController.swift in Sources */,
+				3DCD4FB32198C0C00015E1AF /* OvrHereViewController.swift in Sources */,
+				3DCD4FDF2198C7380015E1AF /* OvrHereViewModel.swift in Sources */,
 				3DCD4FB12198C0C00015E1AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = appcues.com.ovrhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -433,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = appcues.com.ovrhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
